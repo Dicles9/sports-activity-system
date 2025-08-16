@@ -52,7 +52,7 @@ const ActivityComments = ({ activityId }) => {
     try {
       const commentList = CommentService.getCommentsByActivity(activityId)
       setComments(commentList)
-    } catch (error) {
+    } catch  {
       message.error('加载评论失败')
     } finally {
       setLoading(false)
@@ -75,7 +75,7 @@ const ActivityComments = ({ activityId }) => {
       } else {
         message.error(result.message)
       }
-    } catch (error) {
+    } catch  {
       message.error('发表评论失败')
     } finally {
       setSubmitting(false)
@@ -91,7 +91,7 @@ const ActivityComments = ({ activityId }) => {
       } else {
         message.error(result.message)
       }
-    } catch (error) {
+    } catch  {
       message.error('删除评论失败')
     }
   }
@@ -104,7 +104,7 @@ const ActivityComments = ({ activityId }) => {
       } else {
         message.error(result.message)
       }
-    } catch (error) {
+    } catch  {
       message.error('操作失败')
     }
   }
@@ -125,7 +125,7 @@ const ActivityComments = ({ activityId }) => {
       } else {
         message.error(result.message)
       }
-    } catch (error) {
+    } catch  {
       message.error('回复失败')
     }
   }
