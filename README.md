@@ -34,7 +34,7 @@
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/your-username/sports-activity-system.git
+git clone https://github.com/Dicles9/sports-activity-system.git
 cd sports-activity-system
 ```
 
