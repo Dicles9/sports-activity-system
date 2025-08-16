@@ -1,6 +1,6 @@
 # 体育活动室管理系统
 
-[![CI/CD](https://github.com/your-username/sports-activity-system/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/your-username/sports-activity-system/actions)
+[![CI/CD](https://github.com/Dicles9/sports-activity-system/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/Dicles9/sports-activity-system/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 一个基于 React 的现代化体育活动室管理系统，支持活动发布、报名管理、用户中心等功能。
