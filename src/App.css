@@ -1,0 +1,15 @@
+.App {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App h1 {
+  text-align: center;
+  color: #1890ff;
+  margin: 20px 0;
+}
+
+.App p {
+  text-align: center;
+  color: #666;
+}
